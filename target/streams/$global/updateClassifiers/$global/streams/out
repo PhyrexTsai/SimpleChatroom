@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for default#simplechatroom$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72cffed2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f8ceab8
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->runtime]
@@ -14,7 +14,7 @@
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->master]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2470c430
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b54d453
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d10f3d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2133d795
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
@@ -32,7 +32,7 @@
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b94dbca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7232557e
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime]
@@ -40,7 +40,7 @@
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34324151
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79bd3384
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -48,7 +48,7 @@
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ee972ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bbf106c
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.4
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime]
@@ -56,7 +56,7 @@
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@229367f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dba7093
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies default#simplechatroom$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
@@ -537,7 +537,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 514ms :: artifacts dl 29ms
+[debug] :: resolution report :: resolve 346ms :: artifacts dl 48ms
 [debug] 	report for default#simplechatroom$sources_2.11;1.0 compile produced in Z:\Repo\SimpleChatroom\target\resolution-cache\reports\default-simplechatroom$sources_2.11-compile.xml
 [debug] 	report for default#simplechatroom$sources_2.11;1.0 runtime produced in Z:\Repo\SimpleChatroom\target\resolution-cache\reports\default-simplechatroom$sources_2.11-runtime.xml
 [debug] 	report for default#simplechatroom$sources_2.11;1.0 test produced in Z:\Repo\SimpleChatroom\target\resolution-cache\reports\default-simplechatroom$sources_2.11-test.xml
@@ -551,4 +551,4 @@
 [debug] 	report for default#simplechatroom$sources_2.11;1.0 docs produced in Z:\Repo\SimpleChatroom\target\resolution-cache\reports\default-simplechatroom$sources_2.11-docs.xml
 [debug] 	report for default#simplechatroom$sources_2.11;1.0 pom produced in Z:\Repo\SimpleChatroom\target\resolution-cache\reports\default-simplechatroom$sources_2.11-pom.xml
 [debug] 	report for default#simplechatroom$sources_2.11;1.0 scala-tool produced in Z:\Repo\SimpleChatroom\target\resolution-cache\reports\default-simplechatroom$sources_2.11-scala-tool.xml
-[debug] 	resolve done (514ms resolve - 29ms download)
+[debug] 	resolve done (346ms resolve - 48ms download)
