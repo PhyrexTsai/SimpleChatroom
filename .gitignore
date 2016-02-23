@@ -7,3 +7,5 @@ tmp
 .history
 dist
 .idea
+
+*.class
