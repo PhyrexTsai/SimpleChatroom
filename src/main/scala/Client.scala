@@ -4,22 +4,31 @@
 import akka.actor._
 
 case class Send(msg: String) extends Msg
-case class NewMsg(servername : String, from: String, msg: String) extends Msg
-case class Info(servername : String, msg: String) extends Msg
+case class Message(serverName : String, from: String, msg: String) extends Msg
+case class Info(serverName : String, msg: String) extends Msg
 
+/**
+  * Create a Client Actor, require username and server Actor
+  * @param username
+  * @param server
+  */
 class Client(val username: String, server: ActorRef) extends Actor {
 
+  // when a client is create, connect to server
   server ! Connect(username)
 
   def receive = {
-    case NewMsg(servername, from, msg) => {
-      println(f"[Room : $servername][$username%s's client] - $from%s: $msg%s")
+    // display normal message
+    case Message(serverName, from, msg) => {
+      println(s"[Room : $serverName][$username's client] - $from: $msg")
     }
     case Send(msg) => server ! Broadcast(msg)
-    case Info(servername, msg) => {
-      println(f"[Room : $servername][$username%s's client] - $msg%s")
+    // display system message, join or leave or etc...
+    case Info(serverName, msg) => {
+      println(s"[Room : $serverName][$username's client] - $msg")
     }
     case Disconnect => {
+      // http://stackoverflow.com/questions/13847963/akka-kill-vs-stop-vs-poison-pill
       self ! PoisonPill
     }
   }
