@@ -49,3 +49,7 @@ class Server(val name : String) extends Actor {
     clients.filter(actor == _._2).head._1
   }
 }
+
+object ServerActor {
+  def props(name: String): Props = Props(new Server(name))
+}

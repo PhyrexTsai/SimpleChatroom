@@ -33,3 +33,7 @@ class Client(val username: String, server: ActorRef) extends Actor {
     }
   }
 }
+
+object ClientActor {
+  def props(username: String, server: ActorRef): Props = Props(new Client(username, server))
+}
