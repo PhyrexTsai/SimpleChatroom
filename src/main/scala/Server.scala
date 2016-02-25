@@ -19,9 +19,9 @@ class Server(val name : String) extends Actor {
 
   def receive = {
     case Connect(username) => {
-      broadcast(Info(name, s"$username joined the chat"))
       // use double :: means add the (username, sender) to the first element of clients List
       clients = (username, sender) :: clients
+      broadcast(Info(name, s"$username joined the chat"))
       context.watch(sender)
     }
     case Broadcast(msg) => {
